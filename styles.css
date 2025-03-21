@@ -32,9 +32,13 @@ button:hover {
     background: #0056b3;
 }
 
-#downloadLink {
-    display: block;
+#downloadLinks {
     margin-top: 15px;
+}
+
+.download-link {
+    display: block;
+    margin-top: 5px;
     font-size: 18px;
     color: green;
     text-decoration: none;
