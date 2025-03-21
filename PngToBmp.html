@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PNG to BMP Converter</title>
+    <title>Multi-PNG to BMP Converter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>PNG to BMP Converter</h1>
-        <input type="file" id="fileInput" class="fileInput" accept="image/png">
-        <button onclick="convertImage()">Convert to BMP</button>
-        <a id="downloadLink" style="display:none">Download BMP</a>
+        <h1>Multi-PNG to BMP Converter</h1>
+        <input type="file" id="fileInput" class="fileInput" accept="image/png" multiple>
+        <button id="convertButton">Convert to BMP</button>
+        <div id="downloadLinks"></div>
     </div>
     <script src="script.js"></script>
 </body>
